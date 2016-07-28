@@ -5,12 +5,14 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D bird;
+	private CharacterController birdControl;
 	private bool facingLeft;
     public float speed;
 	public Text countText;
 	public Text winText;
 	private int pickupCount;
 
+	private bool dead;
 	private bool isMoving;
 	private Animator anim;
 
@@ -21,6 +23,7 @@ public class PlayerController : MonoBehaviour {
 
 		pickupCount = 0;
 		facingLeft = true;
+		dead = false;
 		winText.text = "";
 		countText.text = "Collected: " + pickupCount.ToString ();
     }
@@ -29,6 +32,11 @@ public class PlayerController : MonoBehaviour {
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
+
+		if (dead) {
+			moveVertical = 0;
+			moveHorizontal = 0;
+		}
 
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
 
@@ -51,6 +59,8 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		anim.SetBool ("isMoving", isMoving);
+		anim.SetBool ("dead", dead);
+			
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -65,6 +75,15 @@ public class PlayerController : MonoBehaviour {
 				winText.text = "You Win!";
 			}
         }
+
+		if (other.gameObject.CompareTag ("Bomb")) {
+			other.gameObject.SetActive (false);
+
+			winText.text = "You Lose!";
+			dead = true;
+		} else {
+			dead = false;
+		}
     }
 
     void Flip()

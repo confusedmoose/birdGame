@@ -19,3 +19,24 @@ D:\UnityProjects\New Unity Project\Temp\bin\Debug\UnityEngine.Networking.xml
 D:\UnityProjects\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 D:\UnityProjects\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\UnityProjects\New Unity Project\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEditor.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEngine.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEngine.UI.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Mono.Cecil.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Unity.DataContract.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Unity.CecilTools.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEngine.xml
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEditor.xml
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEngine.UI.xml
+D:\UnityProjects\birdGame\FirstGame\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\UnityProjects\birdGame\FirstGame\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+D:\UnityProjects\birdGame\FirstGame\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\UnityProjects\birdGame\FirstGame\obj\Debug\Assembly-CSharp-firstpass.pdb
