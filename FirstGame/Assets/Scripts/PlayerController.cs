@@ -81,9 +81,7 @@ public class PlayerController : MonoBehaviour {
 
 			winText.text = "You Lose!";
 			dead = true;
-		} else {
-			dead = false;
-		}
+		} 
     }
 
     void Flip()
